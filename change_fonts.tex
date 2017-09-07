@@ -1,0 +1,83 @@
+\documentclass[dvipdfmx, a4paper, 14Q, fleqn]{jsarticle}
+
+\input{/Users/User/Documents/TeX/preamble/preamble}
+
+\usepackage[deluxe]{otf}
+\usepackage[noalphabet]{pxchfon}
+
+\setminchofont{ipag.ttf}											%明朝M = IPAゴシック
+%\setlightminchofont{}
+%\setmidiumminchofont{}
+\setboldminchofont{GenEiGothicM-SemiBold.ttf}			%太明朝 = 源瑛ゴシックM中太
+\setmediumgothicfont{GenEiGothicN-U-KL.otf}				%中ゴシック = 源瑛ゴシック特太
+\setboldgothicfont{Kazesawa-Extrabold.ttf}					%太ゴシック = Kazesawa特太
+\setxboldgothicfont{GenShinGothic-Heavy.ttf}				%極太ゴシック = 源真角ゴシック
+\setmarugothicfont{HGRSGU.ttc}								%丸ゴシック = 創英角ゴシック
+
+\begin{document}
+\part*{フォントいじり祭}
+各ウェイトに色んな極太フォントを設定して比較していく
+
+
+IPAゴシック
+
+{\mcfamily\bfseries 源瑛ゴシックM中太}
+
+{\gtfamily\mdseries
+源瑛ゴシック特太
+}
+
+{\gtfamily\bfseries
+Kazesawa特太
+}
+
+{\gtfamily\ebseries
+源真角ゴシック極太
+}
+
+{\mgfamily
+創英角ゴシック
+}
+
+
+\part*{\sffamily\gtfamily\mdseries\huge \textbf{\textsf{2017}}年度 東京大学 前期 物理}		%源瑛ゴシック特太
+
+{\mcfamily\bfseries
+本文です～～～。
+ここは源瑛の中太。
+わーー
+なに書いたらいいかわからないけど
+本文との比較用平文。
+解説からコピペしてきたいね
+
+一応段落替え
+}
+
+
+\part*{\sffamily\gtfamily\bfseries\huge 2017年度 東京大学 前期 物理}							%Kazesawa特太
+
+\part*{\sffamily\gtfamily\ebseries\huge \textbf{\textsf{2017}}年度 東京大学 前期 物理}		%源真角ゴシック
+
+
+本文です～～～。
+ここはIPAです。
+わーー
+なに書いたらいいかわからないけど
+本文との比較用平文。
+解説からコピペしてきたいね
+
+一応段落替え
+
+\part*{\sffamily\mgfamily\huge \textbf{\textsf{2017}}年度 東京大学 前期 物理}					%創英角ゴシック
+
+以上を見た感じ、
+
+\begin{itemize}
+\item 本文 $\cdots$ 源瑛（ほんとは日へん）中太Mゴシック
+\item タイトル類 $\cdots$ 源瑛（ほんとは日へん）特太ゴシック
+\end{itemize}
+
+がよいかと思われます。
+
+
+\end{document}
